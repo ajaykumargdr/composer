@@ -1,7 +1,15 @@
 [package]
 name = "package"
+authors.workspace = true
 version.workspace = true
 edition.workspace = true
+repository.workspace = true
+
+[package.metadata.wix]
+upgrade-guid = "2242B0E7-4997-48B2-BAC8-DEEAC0E4AE70"
+path-guid = "D6440E95-99AA-4005-A9F3-9064DAB70465"
+license = false
+eula = false
 
 
 [lib]
@@ -18,13 +26,13 @@ tempfile = "3.2.0"
 itertools = "0.10.5"
 walkdir = "2"
 anyhow = "1.0.65"
-echo-library = { path =  "../echo-library"}
-composer-primitives ="0.0.1"
+echo-library = { path = "../echo-library" }
+composer-primitives = "0.0.1"
 sys-info = "0.9.1"
 
 [dependencies.clap]
 version = "4.5.0"
-features = [ "derive", "env" ]
+features = ["derive", "env"]
 
 [profile.dev]
 opt-level = 0
