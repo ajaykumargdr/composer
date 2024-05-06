@@ -6,8 +6,8 @@ permissions:
 
 on:
   push:
-    tags:
-      - "*"
+    branches:
+      - main
 
 jobs:
   release-plz:
