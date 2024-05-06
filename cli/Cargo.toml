@@ -1,5 +1,5 @@
 [package]
-name = "package"
+name = "composer-cli"
 authors.workspace = true
 version.workspace = true
 edition.workspace = true
@@ -16,7 +16,7 @@ eula = false
 path = "src/lib.rs"
 
 [[bin]]
-name = "composer-cli"
+name = "composer"
 path = "src/main.rs"
 
 [dependencies]
