@@ -1,10 +1,10 @@
 [package]
 name = "echo-library"
-version.workspace = true
+version = "0.0.3"
 edition.workspace = true
 authors.workspace = true
 license = "Apache-2.0"
-description = "primitives types for composer"
+description = "echo library for parsing the inatruction"
 
 [dependencies]
 anyhow = "1.0.75"

@@ -9,11 +9,12 @@ use std::path::Path;
 
 use super::*;
 
-const COMMON: &str = include_str!("../boilerplate/src/common.rs");
-const LIB: &str = include_str!("../boilerplate/src/lib.rs");
-const TRAIT: &str = include_str!("../boilerplate/src/traits.rs");
-const MACROS: &str = include_str!("../boilerplate/src/macros.rs");
-const CARGO: &str = include_str!("../boilerplate/Cargo.toml");
+// Hardcoded boilerplate for release
+// const COMMON: &str = include_str!("../boilerplate/src/common.rs");
+// const LIB: &str = include_str!("../boilerplate/src/lib.rs");
+// const TRAIT: &str = include_str!("../boilerplate/src/traits.rs");
+// const MACROS: &str = include_str!("../boilerplate/src/macros.rs");
+// const CARGO: &str = include_str!("../boilerplate/Cargo.toml");
 
 #[derive(Debug, ProvidesStaticType, Default)]
 pub struct Composer {

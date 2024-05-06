@@ -16,7 +16,7 @@ eula = false
 path = "src/lib.rs"
 
 [[bin]]
-name = "composer"
+name = "composer-cli"
 path = "src/main.rs"
 
 [dependencies]
@@ -26,7 +26,7 @@ tempfile = "3.2.0"
 itertools = "0.12.1"
 walkdir = "2"
 anyhow = "1.0.65"
-echo-library = { path = "../echo-library" }
+echo-library = "0.0.3"
 composer-primitives = "0.0.1"
 sys-info = "0.9.1"
 
