@@ -1,7 +1,7 @@
 [workspace.package]
 authors = ["HugoByte", "The HugoByte Team <hello@hugobyte.com>"]
 edition = "2021"
-repository = "https://github.com/hugobyte/composer.git"
+repository = "https://github.com/hugobyte/composer"
 version = "0.0.6"
 
 # Config for 'cargo dist'
